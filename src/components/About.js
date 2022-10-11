@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container, Grid, CardContent, Card } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { styled } from "@mui/material";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MySkills from "./MySkills";
 
 const About = () => {
   const CustomTypography = styled(Typography)({
@@ -18,6 +18,8 @@ const About = () => {
   return (
     <>
       <div id="about">
+        <Typography variant="h5" id="introduce">Let me introduce myself.</Typography>
+        <br />
         <Typography variant="h4">Hi, I'm Kevin Gicheha</Typography>
         <br />
         <div>
@@ -60,12 +62,7 @@ const About = () => {
             width="550"
           />
         </div>
-        {/* <div id="socials">
-          <Typography variant="body1">SOCIAL MEDIA</Typography>
-        </div>
-        <div id="socialsicons">
-          <LinkedInIcon fontSize="large"/>
-        </div> */}
+        <MySkills/>
       </div>
     </>
   );

@@ -1,70 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#entirePage{
-  background-color:#f6f6f6;
+#entirePage {
+  background-color: #f6f6f6;
   /* height: 100%; */
 }
 /* About Me Section */
-#about{
+#introduce {
+  color: #ff014f;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+#about {
   padding-top: 7em;
   padding-left: 4em;
   width: 50%;
   padding-bottom: 20em;
 }
-#a{
-float: left;
+#a {
+  float: left;
 }
 #textAnimation {
   float: left;
   padding-left: 1em;
 }
-#halfshot{
+#halfshot {
   position: absolute;
   top: 6em;
   right: 2em;
 }
-#socials{
+#socials {
   padding-top: 2em;
   padding-bottom: 1em;
 }
-#socialsicons{
+#socialsicons {
   cursor: pointer;
   padding-top: 10px;
   background-color: white;
@@ -72,4 +39,65 @@ float: left;
   justify-items: center;
   align-items: center;
   width: 10%;
+}
+
+/* SKILLS SECTION */
+#skillsSection {
+  padding-top: 2em;
+  text-align: center;
+}
+
+/* EDUCATION SECTION */
+#educationSection {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+/* PROJECT SECTION */
+#projectsSection {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  background-color: #ebeeee;
+}
+
+/* BLOG SECTION */
+#blogSection {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+/* CONTACT SECTION */
+#contactMeSection {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  background-color: #ebeeee;
+}
+
+#contacts {
+  padding-top: 1.5em;
+  /* justify-content: center;
+  justify-items: center;
+  align-items: center; */
+}
+/* #email{
+  float: left;
+}
+#linkedIn{
+  float: left;
+} */
+
+#returnToTop{
+  padding-top: 3.5em;
+  background-color: #FF014F;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#returnToTop:hover {
+  background-color: #e20045;
 }
