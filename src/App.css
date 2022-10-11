@@ -13,7 +13,7 @@
   padding-top: 7em;
   padding-left: 4em;
   width: 50%;
-  padding-bottom: 20em;
+  padding-bottom: 7em;
 }
 #a {
   float: left;
@@ -27,24 +27,14 @@
   top: 6em;
   right: 2em;
 }
-#socials {
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-#socialsicons {
-  cursor: pointer;
-  padding-top: 10px;
-  background-color: white;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  width: 10%;
-}
 
 /* SKILLS SECTION */
 #skillsSection {
-  padding-top: 2em;
+  padding-top: 3em;
   text-align: center;
+}
+.skillsList {
+  text-align: left;
 }
 
 /* EDUCATION SECTION */
@@ -90,9 +80,9 @@
   float: left;
 } */
 
-#returnToTop{
+#returnToTop {
   padding-top: 3.5em;
-  background-color: #FF014F;
+  background-color: #ff014f;
   width: 50px;
   height: 50px;
   border-radius: 50%;

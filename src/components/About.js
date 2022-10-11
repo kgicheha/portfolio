@@ -10,7 +10,7 @@ const About = () => {
     fontWeight: "bold",
   });
   const CustomTypography2 = styled(Typography)({
-    paddingTop: "3em",
+    paddingTop: "4.5em",
     paddingRight: "3em",
     position: "relative",
   });
@@ -46,7 +46,7 @@ const About = () => {
         <br />
         <div>
           <CustomTypography2 variant="body1">
-            I bring 3+ years of analyst experience and strong collaboration and
+            I also bring 3+ years of analyst experience and strong collaboration and
             problem-solving skills by using innovative and creative ideas to
             accomplish robust projects. Proven experience providing client
             support in busy environments and an unwavering commitment to
