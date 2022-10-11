@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+#entirePage{
+  background-color:#f6f6f6;
+  /* height: 100%; */
+}
+/* About Me Section */
+#about{
+  padding-top: 7em;
+  padding-left: 4em;
+  width: 50%;
+  padding-bottom: 20em;
+}
+#a{
+float: left;
+}
+#textAnimation {
+  float: left;
+  padding-left: 1em;
+}
+#halfshot{
+  position: absolute;
+  top: 6em;
+  right: 2em;
+}
+#socials{
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+#socialsicons{
+  cursor: pointer;
+  padding-top: 10px;
+  background-color: white;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 10%;
+}

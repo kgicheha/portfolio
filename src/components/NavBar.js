@@ -29,12 +29,13 @@ const NavBar = () => {
   };
 
   const CustomAppBar = styled(AppBar)({
-    backgroundColor: "white",
+    backgroundColor: "#f6f6f6",
   });
 
   const CustomButton = styled(Button)({
     color: "#FF014F",
     borderColor: "#FF014F",
+    fontWeight: "bold",
     "&:hover": {
       backgroundColor: "#FF0F59",
       color: "#ffffff",
@@ -53,8 +54,7 @@ const NavBar = () => {
   })
   return (
     <>
-      <CssBaseline />
-      <CustomAppBar position="static">
+      <CustomAppBar position="fixed">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 0 }}>
