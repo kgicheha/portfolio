@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Container, Grid, CardContent, Card } from "@mui/material";
+import { Typography } from "@mui/material";
 import { styled } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

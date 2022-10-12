@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Container, Grid, CardContent, Card } from "@mui/material";
+import { Typography } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { styled } from "@mui/material";
 import MySkills from "./MySkills";
@@ -29,7 +29,7 @@ const About = () => {
           <div id="textAnimation">
             <TypeAnimation
               sequence={[
-                "Full Stack Developer.",
+                "Software Engineer.",
                 1000, // Waits 1s
                 "Professional Coder.",
                 1000, // Waits 2s
@@ -57,6 +57,7 @@ const About = () => {
 
         <div id="halfshot">
           <img
+            alt ="profilepic"
             src={require("../Assets/halfshot.jpeg")}
             height="650"
             width="550"
