@@ -28,14 +28,14 @@ const Blog = () => {
     paddingRight: "12em",
   });
   const CustomButton = styled(Button)({
-    color: "#FF014F",
-    borderColor: "#FF014F",
+    color: "#1876d1",
+    borderColor: "#1876d1",
     fontWeight: "bold",
     "&:hover": {
-      backgroundColor: "#FF0F59",
+      backgroundColor: "#1876d1",
       color: "#ffffff",
       textDecoration: "underline",
-      borderColor: "#FF014F",
+      borderColor: "#1876d1",
     },
   });
   return (
@@ -60,7 +60,7 @@ const Blog = () => {
                   Ruby: Active Record Associations
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Active Record Association features
+                  Active Record Association Features
                 </Typography>
               </CardContent>
               <CardActions>
@@ -86,7 +86,7 @@ const Blog = () => {
                   Object Oriented Programming
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  What is Object Oriented Programming?
+                  What Is Object Oriented Programming?
                 </Typography>
               </CardContent>
               <CardActions>
@@ -126,10 +126,8 @@ const Blog = () => {
           </Grid>
         </Grid>
       </CustomContainer>
-      <CustomButton variant="outlined">
-        <a id="blogLink" href="https://medium.com/@gichehakevin">
-          Check Out My Other Blogs
-        </a>
+      <CustomButton href="https://medium.com/@gichehakevin" variant="outlined">
+        Check Out My Other Blogs
       </CustomButton>
     </div>
   );

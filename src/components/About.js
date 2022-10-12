@@ -11,8 +11,8 @@ const About = () => {
   });
   const CustomTypography2 = styled(Typography)({
     paddingTop: "5.5em",
-    paddingRight: "3em",
-    position: "relative",
+    paddingRight: "2em",
+    // position: "relative",
   });
   const CustomTypograph3 = styled(Typography)({
     color: "#FF014F",
