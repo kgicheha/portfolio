@@ -10,7 +10,7 @@ const About = () => {
     // fontWeight: "bold",
   });
   const CustomTypography2 = styled(Typography)({
-    paddingTop: "4.5em",
+    paddingTop: "5.5em",
     paddingRight: "3em",
     position: "relative",
   });
@@ -60,7 +60,6 @@ const About = () => {
               />
             </div>
           </div>
-          <br />
           <div>
             <CustomTypography2 variant="body1">
               I also bring 3+ years of analyst experience and strong
@@ -72,6 +71,7 @@ const About = () => {
               loyalty.
             </CustomTypography2>
           </div>
+          <MySkills />
         </Container>
 
         <Container>
@@ -79,12 +79,11 @@ const About = () => {
             <img
               alt="profilepic"
               src={require("../Assets/halfshot.jpeg")}
-              height="575"
+              height="475"
               width="400"
             />
           </div>
         </Container>
-        <MySkills />
       </div>
     </>
   );

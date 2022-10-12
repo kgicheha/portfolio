@@ -41,7 +41,6 @@
 /* SKILLS SECTION */
 #skillsSection {
   padding-top: 2.5em;
-  padding-left: 1em;
   text-align: center;
 }
 .skillsList {
@@ -67,8 +66,16 @@
 #blogSection {
   padding-top: 2em;
   padding-bottom: 2em;
+  /* padding-left: 12em;
+  padding-right: 8em; */
   text-align: center;
   background-color: #ebeeee;
+}
+#blogLink{
+  text-decoration: none;
+}
+#blogLink:hover {
+  color: white;
 }
 
 /* WORK EXPERIENCE SECTION */

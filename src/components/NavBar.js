@@ -16,7 +16,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { styled } from "@mui/material";
 
 const NavBar = () => {
-
   const [anchorElNav, setAnchorElNav] = useState(null);
   const pages = ["About", "Skills", "Porfolio", "Blog", "Contact"];
 
@@ -47,10 +46,10 @@ const NavBar = () => {
     color: "#3C3E41",
     display: "block",
     "&:hover": {
-        textDecoration: "underline",
-      },
+      textDecoration: "underline",
+    },
+  });
 
-  })
   return (
     <>
       <CustomAppBar position="fixed">
@@ -59,7 +58,11 @@ const NavBar = () => {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip>
                 <IconButton sx={{ p: 0 }}>
-                  <Avatar alt="logo" src={require("../Assets/logo.jpeg")} />
+                  <Avatar
+                    alt="logo"
+                    src={require("../Assets/logo.jpeg")}
+                    sx={{ width: 50, height: 50 }}
+                  />
                 </IconButton>
               </Tooltip>
             </Box>
@@ -99,18 +102,19 @@ const NavBar = () => {
                 ))}
               </Menu>
             </Box>
-
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
-                <CustomMenuButton
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2 }}
-                >
-                  {page}
-                </CustomMenuButton>
-              ))}
-            </Box>
+            <Container sx={{ textAlign: "center" }}>
+              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+                {pages.map((page) => (
+                  <CustomMenuButton
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2 }}
+                  >
+                    {page}
+                  </CustomMenuButton>
+                ))}
+              </Box>
+            </Container>
             <CustomButton variant="outlined">Resume</CustomButton>
           </Toolbar>
         </Container>

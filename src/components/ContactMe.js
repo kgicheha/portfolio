@@ -23,16 +23,16 @@ const ContactMe = () => {
       </CustomTypography2>
       <div id="contacts">
         <div id="email">
-          <MailIcon fontSize="large" />
+          <MailIcon  sx={{ fontSize: 55 }} />
         </div>
         <div id="linkedIn">
           <a href="https://www.linkedin.com/in/kevin-gicheha/">
-            <LinkedInIcon fontSize="large" />
+            <LinkedInIcon sx={{ fontSize: 55 }} />
           </a>
         </div>
       </div>
       <div id="returnToTop">
-        <KeyboardArrowUpIcon fontSize="large" />
+        <KeyboardArrowUpIcon  sx={{ fontSize: 55 }} />
       </div>
     </div>
   );
