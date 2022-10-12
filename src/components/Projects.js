@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <div id="projectsSection">
-        <CustomTypography variant="h5">Projects</CustomTypography>
+        <CustomTypography variant="h5">PROJECTS</CustomTypography>
 
       </div>
     </>

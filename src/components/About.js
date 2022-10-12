@@ -59,8 +59,8 @@ const About = () => {
           <img
             alt ="profilepic"
             src={require("../Assets/halfshot.jpeg")}
-            height="650"
-            width="550"
+            height="575"
+            width="500"
           />
         </div>
         <MySkills/>

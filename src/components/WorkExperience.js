@@ -25,7 +25,7 @@ const WorkExperience = () => {
   });
   return (
     <div id="workExpSection">
-      <CustomTypography variant="h5">Work Experience</CustomTypography>
+      <CustomTypography variant="h5">WORK EXPERIENCE</CustomTypography>
       <CustomTimeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent
@@ -33,7 +33,7 @@ const WorkExperience = () => {
             variant="body1"
             color="text.secondary"
           >
-            June 2021- May 2022
+            June 2021 - May 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -127,7 +127,7 @@ const WorkExperience = () => {
             variant="body1"
             color="text.secondary"
           >
-            Nov 2018- May 2021
+            Nov 2018 - May 2021
           </TimelineContent>
         </TimelineItem>
       </CustomTimeline>

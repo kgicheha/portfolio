@@ -20,7 +20,7 @@ const Education = () => {
   });
   return (
     <div id="educationSection">
-      <CustomTypography variant="h5">Education</CustomTypography>
+      <CustomTypography variant="h5">EDUCATION</CustomTypography>
       <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent
