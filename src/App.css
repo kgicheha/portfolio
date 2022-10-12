@@ -4,33 +4,44 @@
 }
 /* About Me Section */
 #introduce {
-  color: #ff014f;
+  color: #3C3E41;
   font-weight: bold;
   position: relative;
   text-align: center;
 }
 #about {
   padding-top: 8em;
-  padding-left: 4em;
+  padding-left: 12em;
   width: 50%;
   padding-bottom: 3em;
+  /* border-bottom: solid darkgray; */
+}
+#hi{
+  float: left;
+}
+#name{
+  float: left;
+  padding-left: 0.30em;
 }
 #a {
   float: left;
+  /* align-self: end; */
 }
+
 #textAnimation {
   float: left;
-  padding-left: 1em;
+  padding-left: 0.50em;
 }
 #halfshot {
   position: absolute;
   top: 6em;
-  right: 2em;
+  right: 12em;
 }
 
 /* SKILLS SECTION */
 #skillsSection {
-  padding-top: 3em;
+  padding-top: 2.5em;
+  padding-left: 1em;
   text-align: center;
 }
 .skillsList {

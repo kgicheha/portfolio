@@ -16,7 +16,7 @@ const ContactMe = () => {
 
   return (
     <div id="contactMeSection">
-      <CustomTypography variant="h6">Contact</CustomTypography>
+      {/* <CustomTypography variant="h6">Contact</CustomTypography> */}
       <Typography variant="h4">I'd Love To Connect With You.</Typography>
       <CustomTypography2 variant="body1">
         Let me get to know more about you.
@@ -24,17 +24,11 @@ const ContactMe = () => {
       <div id="contacts">
         <div id="email">
           <MailIcon fontSize="large" />
-          <CustomTypography variant="body1">Email Me At</CustomTypography>
-          <Typography variant="body1">gichehakevin@gmail.com</Typography>
         </div>
         <div id="linkedIn">
-          <LinkedInIcon fontSize="large" />
-          <CustomTypography variant="body1">Let's Connect</CustomTypography>
-          <Typography variant="body1">
-            <a href="https://www.linkedin.com/in/kevin-gicheha/">
-              LinkedIn Profile
-            </a>
-          </Typography>
+          <a href="https://www.linkedin.com/in/kevin-gicheha/">
+            <LinkedInIcon fontSize="large" />
+          </a>
         </div>
       </div>
       <div id="returnToTop">

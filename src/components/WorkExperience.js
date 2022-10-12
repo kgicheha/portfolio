@@ -12,12 +12,13 @@ import WorkIcon from "@mui/icons-material/Work";
 
 const WorkExperience = () => {
   const CustomTypography = styled(Typography)({
-    color: "#FF014F",
+    color: "#3C3E41",
     fontWeight: "bold",
     textAlign: "center"
   });
   const CustomTimeline = styled(Timeline)({
-    textAlign: "flex-start"
+    paddingLeft: "12em",
+    paddingRight: "8em"
   });
 
   const CustomTypograph2 = styled(Typography)({

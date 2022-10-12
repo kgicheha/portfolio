@@ -4,7 +4,7 @@ import { styled } from "@mui/material";
 
 const Blog = () => {
     const CustomTypography = styled(Typography)({
-        color: "#FF014F",
+        color: "#3C3E41",
         fontWeight: "bold",
       });
   return (

@@ -5,11 +5,11 @@ import { textAlign } from "@mui/system";
 
 const MySkills = () => {
   const CustomTypography = styled(Typography)({
-    color: "#FF014F",
+    color: "#3C3E41",
     fontWeight: "bold",
   });
   const CustomTypography2 = styled(Typography)({
-    color: "#FF014F",
+    // color: "#3C3E41",
     fontWeight: "bold",
     paddingTop: "0.5em",
     paddingBottom: "0.5em",

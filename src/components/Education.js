@@ -12,16 +12,21 @@ import SchoolIcon from "@mui/icons-material/School";
 
 const Education = () => {
   const CustomTypography = styled(Typography)({
-    color: "#FF014F",
+    color: "#3C3E41",
     fontWeight: "bold",
   });
   const CustomTypograph2 = styled(Typography)({
     fontWeight: "bold",
   });
+  const CustomTimeline= styled(Timeline)({
+    paddingLeft: "12em",
+    paddingRight: "8em"
+  });
+
   return (
     <div id="educationSection">
       <CustomTypography variant="h5">EDUCATION</CustomTypography>
-      <Timeline position="alternate">
+      <CustomTimeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
@@ -75,7 +80,7 @@ const Education = () => {
             July 2018
           </TimelineContent>
         </TimelineItem>
-      </Timeline>
+      </CustomTimeline>
     </div>
   );
 };
