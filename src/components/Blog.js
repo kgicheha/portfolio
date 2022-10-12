@@ -22,8 +22,8 @@ const Blog = () => {
   });
 
   const CustomContainer = styled(Container)({
-    paddingTop: "2em",
-    paddingBottom: "2em",
+    paddingTop: "1em",
+    paddingBottom: "1em",
     paddingLeft: "12em",
     paddingRight: "12em",
   });
@@ -56,7 +56,7 @@ const Blog = () => {
                 image={require("../Assets/active_record.jpeg")}
               />
               <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom variant="body1" component="div">
                   Ruby: Active Record Associations
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
@@ -82,7 +82,7 @@ const Blog = () => {
                 image={require("../Assets/oop.png")}
               />
               <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom variant="body1" component="div">
                   Object Oriented Programming
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
@@ -108,7 +108,7 @@ const Blog = () => {
                 image={require("../Assets/material_ui.png")}
               />
               <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom variant="body1" component="div">
                   Material UI
                 </Typography>
                 <Typography variant="body2" color="text.secondary">

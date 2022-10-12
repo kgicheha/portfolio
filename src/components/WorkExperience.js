@@ -18,7 +18,7 @@ const WorkExperience = () => {
   });
   const CustomTimeline = styled(Timeline)({
     paddingLeft: "12em",
-    paddingRight: "8em"
+    paddingRight: "12em"
   });
 
   const CustomTypograph2 = styled(Typography)({

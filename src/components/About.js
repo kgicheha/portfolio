@@ -22,7 +22,7 @@ const About = () => {
   return (
     <>
       <div id="about">
-        <Container>
+        <div id="leftSide">
           <Typography variant="h5" id="introduce">
             Let me introduce myself.
           </Typography>
@@ -72,18 +72,17 @@ const About = () => {
             </CustomTypography2>
           </div>
           <MySkills />
-        </Container>
+        </div>
 
-        <Container>
-          <div id="halfshot">
-            <img
-              alt="profilepic"
-              src={require("../Assets/halfshot.jpeg")}
-              height="475"
-              width="400"
-            />
-          </div>
-        </Container>
+        {/* <div> */}
+          <img
+            id="halfshot"
+            alt="profilepic"
+            src={require("../Assets/halfshot.jpeg")}
+            height="475"
+            width="400"
+          />
+        {/* </div> */}
       </div>
     </>
   );

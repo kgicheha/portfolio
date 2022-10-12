@@ -18,9 +18,9 @@ const Education = () => {
   const CustomTypograph2 = styled(Typography)({
     fontWeight: "bold",
   });
-  const CustomTimeline= styled(Timeline)({
+  const CustomTimeline = styled(Timeline)({
     paddingLeft: "12em",
-    paddingRight: "8em"
+    paddingRight: "12em",
   });
 
   return (

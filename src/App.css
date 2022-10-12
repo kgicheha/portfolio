@@ -12,9 +12,12 @@
 #about {
   padding-top: 8em;
   padding-left: 12em;
-  width: 50%;
   padding-bottom: 3em;
-  /* border-bottom: solid darkgray; */
+
+}
+#leftSide{
+  width: 50%;
+  float: left;
 }
 #hi {
   float: left;
@@ -33,9 +36,11 @@
   padding-left: 0.5em;
 }
 #halfshot {
-  position: absolute;
-  top: 6em;
-  right: 12em;
+  /* float: left; */
+  /* position: relative; */
+  /* height: 100%; */
+  /* top: 6em;
+  right: 12em; */
 }
 
 /* SKILLS SECTION */
@@ -49,7 +54,7 @@
 
 /* EDUCATION SECTION */
 #educationSection {
-  padding-top: 1em;
+  padding-top: 5em;
   padding-bottom: 1em;
   text-align: center;
 }
@@ -66,8 +71,8 @@
 #blogSection {
   padding-top: 2em;
   padding-bottom: 2em;
-  /* padding-left: 12em;
-  padding-right: 8em; */
+  padding-left: 12em;
+  padding-right: 12em;
   text-align: center;
   background-color: #ebeeee;
 }

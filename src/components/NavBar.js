@@ -102,8 +102,12 @@ const NavBar = () => {
                 ))}
               </Menu>
             </Box>
-            <Container sx={{ textAlign: "center" }}>
-              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Container
+            // sx={{ justifyItems: "center",  display: "flex" }}
+            >
+              <Box
+              sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+              >
                 {pages.map((page) => (
                   <CustomMenuButton
                     key={page}
