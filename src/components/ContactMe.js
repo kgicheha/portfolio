@@ -22,11 +22,11 @@ const ContactMe = () => {
       </CustomTypography2>
       <div id="contacts">
         <div className="contactIcon">
-          <MailIcon  sx={{ fontSize: 55, color: '#3c3e41' }} />
+          <MailIcon  sx={{ fontSize: 55, color: '#1876d1' }} />
         </div>
         <div className="contactIcon">
           <a href="https://www.linkedin.com/in/kevin-gicheha/">
-            <LinkedInIcon sx={{ fontSize: 55, color: '#FF014F' }} />
+            <LinkedInIcon sx={{ fontSize: 55, color: '#1876d1' }} />
           </a>
         </div>
       </div>
