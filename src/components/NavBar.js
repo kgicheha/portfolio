@@ -17,7 +17,7 @@ import { styled } from "@mui/material";
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  const pages = ["About", "Skills", "Porfolio", "Blog", "Contact"];
+  const pages = ["About", "Projects", "Blogs", "Experience", "Contact"];
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);

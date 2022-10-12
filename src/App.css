@@ -4,7 +4,7 @@
 }
 /* About Me Section */
 #introduce {
-  color: #3C3E41;
+  color: #3c3e41;
   font-weight: bold;
   position: relative;
   text-align: center;
@@ -16,12 +16,12 @@
   padding-bottom: 3em;
   /* border-bottom: solid darkgray; */
 }
-#hi{
+#hi {
   float: left;
 }
-#name{
+#name {
   float: left;
-  padding-left: 0.30em;
+  padding-left: 0.3em;
 }
 #a {
   float: left;
@@ -30,7 +30,7 @@
 
 #textAnimation {
   float: left;
-  padding-left: 0.50em;
+  padding-left: 0.5em;
 }
 #halfshot {
   position: absolute;
@@ -71,7 +71,7 @@
   text-align: center;
   background-color: #ebeeee;
 }
-#blogLink{
+#blogLink {
   text-decoration: none;
 }
 #blogLink:hover {
@@ -82,7 +82,6 @@
 #workExpSection {
   padding-top: 2em;
   padding-bottom: 2em;
-
 }
 
 /* CONTACT SECTION */
@@ -95,16 +94,16 @@
 
 #contacts {
   padding-top: 1.5em;
-  /* justify-content: center;
+  padding-bottom: 1.5em;
+  justify-content: center;
   justify-items: center;
-  align-items: center; */
+  display: flex;
 }
-/* #email{
+.contactIcon {
   float: left;
+  padding-left: 1em;
+  color: white ;
 }
-#linkedIn{
-  float: left;
-} */
 
 #returnToTop {
   padding-top: 3.5em;
@@ -113,6 +112,7 @@
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  align-items: center;
 }
 #returnToTop:hover {
   background-color: #e20045;
