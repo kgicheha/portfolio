@@ -63,12 +63,11 @@ const NavBar = () => {
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip>
-                <IconButton sx={{ p: 0 }}  href="#about">
+                <IconButton sx={{ p: 0 }} href="#about">
                   <Avatar
                     alt="logo"
                     src={require("../Assets/logo.jpeg")}
                     sx={{ width: 50, height: 50 }}
-
                   />
                 </IconButton>
               </Tooltip>
@@ -103,10 +102,8 @@ const NavBar = () => {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page.name} onClick={handleCloseNavMenu} >
-                    <Typography textAlign="center">
-                      {page.name}
-                    </Typography>
+                  <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">{page.name}</Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -127,7 +124,13 @@ const NavBar = () => {
                 ))}
               </Box>
             </Container>
-            <CustomButton variant="outlined">Resume</CustomButton>
+            <CustomButton
+              variant="outlined"
+              href={require("../Assets/Kevin_Gicheha_Resume.pdf")}
+              target="_blank"
+            >
+              Resume
+            </CustomButton>
           </Toolbar>
         </Container>
       </CustomAppBar>
