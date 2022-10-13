@@ -65,7 +65,10 @@ const Blog = () => {
               </CardContent>
               <CardActions>
                 <Button size="medium">
-                  <a href="https://medium.com/@gichehakevin/ruby-active-record-associations-79bc0bfb972f">
+                  <a
+                    href="https://medium.com/@gichehakevin/ruby-active-record-associations-79bc0bfb972f"
+                    target="_blank"
+                  >
                     Read More
                   </a>
                 </Button>
@@ -91,7 +94,10 @@ const Blog = () => {
               </CardContent>
               <CardActions>
                 <Button size="medium">
-                  <a href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd">
+                  <a
+                    href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
+                    target="_blank"
+                  >
                     Read More
                   </a>
                 </Button>
@@ -117,7 +123,10 @@ const Blog = () => {
               </CardContent>
               <CardActions>
                 <Button size="medium">
-                  <a href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd">
+                  <a
+                    href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
+                    target="_blank"
+                  >
                     Read More
                   </a>
                 </Button>
@@ -126,7 +135,11 @@ const Blog = () => {
           </Grid>
         </Grid>
       </CustomContainer>
-      <CustomButton href="https://medium.com/@gichehakevin" variant="outlined">
+      <CustomButton
+        href="https://medium.com/@gichehakevin"
+        target="_blank"
+        variant="outlined"
+      >
         Check Out My Other Blogs
       </CustomButton>
     </div>
