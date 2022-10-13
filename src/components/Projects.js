@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/material";
 import ProjectDetails from "./ProjectDetails";
+import ProjectContainer from "./ProjectContainer";
 
 const Projects = () => {
   const CustomTypography = styled(Typography)({
@@ -28,11 +29,11 @@ const Projects = () => {
     <>
       <div id="projects">
         <CustomTypography variant="h5">PROJECTS</CustomTypography>
-      <CustomContainer>
-        <Grid container spacing={2}>
-          <ProjectDetails />
-        </Grid>
-      </CustomContainer>
+        <CustomContainer>
+          <Grid container spacing={2}>
+            <ProjectContainer />
+          </Grid>
+        </CustomContainer>
       </div>
     </>
   );
