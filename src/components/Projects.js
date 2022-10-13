@@ -3,14 +3,9 @@ import {
   Typography,
   Container,
   Grid,
-  Button,
-  Card,
-  CardActions,
-  CardMedia,
-  CardContent,
+
 } from "@mui/material";
 import { styled } from "@mui/material";
-import ProjectDetails from "./ProjectDetails";
 import ProjectContainer from "./ProjectContainer";
 
 const Projects = () => {
@@ -24,8 +19,7 @@ const Projects = () => {
     paddingRight: "12em",
   });
 
-  // on click you'll flip the card and have access to the demo and explanation of the project
-  return (
+return(
     <>
       <div id="projects">
         <CustomTypography variant="h5">PROJECTS</CustomTypography>

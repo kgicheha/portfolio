@@ -25,7 +25,7 @@
   float: left;
   padding-left: 0.3em;
 }
-.myTitleDiv{
+.myTitleDiv {
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -72,7 +72,20 @@
   background-color: #ebeeee;
 }
 /* projectCards */
+#languages {
+  text-align: left;
+  padding-top: 1em;
+}
+#showcase {
+  text-align: left;
+}
+#github {
+  float: left;
+}
 
+#demo {
+  float: right;
+}
 /* BLOG SECTION */
 #blogs {
   padding-top: 2em;
