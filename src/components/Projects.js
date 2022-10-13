@@ -7,11 +7,12 @@ const Projects = () => {
     color: "#3C3E41",
     fontWeight: "bold",
   });
+
+  // on click you'll flip the card and have access to the demo and explanation of the project
   return (
     <>
       <div id="projectsSection">
         <CustomTypography variant="h5">PROJECTS</CustomTypography>
-
       </div>
     </>
   );

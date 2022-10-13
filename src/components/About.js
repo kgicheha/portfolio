@@ -7,7 +7,7 @@ import MySkills from "./MySkills";
 const About = () => {
   const CustomTypography = styled(Typography)({
     color: "#FF014F",
-    // fontWeight: "bold",
+    paddingTop: "0.08em"
   });
   const CustomTypography2 = styled(Typography)({
     paddingTop: "5.5em",
@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <br />
           <br />
-          <div>
+          <div id="myTitleDiv">
             <div id="a">
               <CustomTypography variant="h4">a</CustomTypography>
             </div>

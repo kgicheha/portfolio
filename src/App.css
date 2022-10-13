@@ -25,14 +25,18 @@
   float: left;
   padding-left: 0.3em;
 }
+.myTitleDiv{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 #a {
   float: left;
-  /* align-self: end; */
 }
 
 #textAnimation {
   float: left;
   padding-left: 0.5em;
+  padding-bottom: 1em;
 }
 #halfshot {
   /* float: left; */

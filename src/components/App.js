@@ -9,6 +9,8 @@ import ContactMe from "./ContactMe";
 import WorkExperience from "./WorkExperience";
 
 function App() {
+
+  // need to implement routes
   return (
     <>
       <div id="entirePage">
