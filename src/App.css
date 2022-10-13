@@ -63,15 +63,18 @@
 }
 
 /* PROJECT SECTION */
-#projectsSection {
+#projects {
   padding-top: 2em;
   padding-bottom: 2em;
+  padding-left: 12em;
+  padding-right: 12em;
   text-align: center;
   background-color: #ebeeee;
 }
+/* projectCards */
 
 /* BLOG SECTION */
-#blogSection {
+#blogs {
   padding-top: 2em;
   padding-bottom: 2em;
   padding-left: 12em;
@@ -81,13 +84,13 @@
 }
 
 /* WORK EXPERIENCE SECTION */
-#workExpSection {
+#workexperience {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 /* CONTACT SECTION */
-#contactMeSection {
+#contactinfo {
   padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;

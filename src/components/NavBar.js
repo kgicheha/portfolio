@@ -17,7 +17,13 @@ import { styled } from "@mui/material";
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  const pages = ["About", "Projects", "Blogs", "Experience", "Contact"];
+  const pages = [
+    { name: "About", link: "#about" },
+    { name: "Projects", link: "#projects" },
+    { name: "Blogs", link: "#blogs" },
+    { name: "Experience", link: "#workexperience" },
+    { name: "Contact", link: "#contactinfo" },
+  ];
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -57,11 +63,12 @@ const NavBar = () => {
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip>
-                <IconButton sx={{ p: 0 }}>
+                <IconButton sx={{ p: 0 }}  href="#about">
                   <Avatar
                     alt="logo"
                     src={require("../Assets/logo.jpeg")}
                     sx={{ width: 50, height: 50 }}
+
                   />
                 </IconButton>
               </Tooltip>
@@ -96,8 +103,10 @@ const NavBar = () => {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                  <MenuItem key={page.name} onClick={handleCloseNavMenu} >
+                    <Typography textAlign="center">
+                      {page.name}
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -105,16 +114,15 @@ const NavBar = () => {
             <Container
             // sx={{ justifyItems: "center",  display: "flex" }}
             >
-              <Box
-              sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
-              >
+              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 {pages.map((page) => (
                   <CustomMenuButton
-                    key={page}
+                    key={page.name}
                     onClick={handleCloseNavMenu}
                     sx={{ my: 2 }}
+                    href={page.link}
                   >
-                    {page}
+                    {page.name}
                   </CustomMenuButton>
                 ))}
               </Box>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Typography, IconButton } from "@mui/material";
 import { styled } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,24 +15,24 @@ const ContactMe = () => {
   });
 
   return (
-    <div id="contactMeSection">
+    <div id="contactinfo">
       <Typography variant="h4">I'd Love To Connect With You.</Typography>
       <CustomTypography2 variant="body1">
         Let me get to know more about you.
       </CustomTypography2>
       <div id="contacts">
         <div className="contactIcon">
-          <MailIcon  sx={{ fontSize: 55, color: '#1876d1' }} />
+          <MailIcon sx={{ fontSize: 55, color: "#1876d1" }} />
         </div>
         <div className="contactIcon">
           <a href="https://www.linkedin.com/in/kevin-gicheha/">
-            <LinkedInIcon sx={{ fontSize: 55, color: '#1876d1' }} />
+            <LinkedInIcon sx={{ fontSize: 55, color: "#1876d1" }} />
           </a>
         </div>
       </div>
-      {/* <div id="returnToTop">
-      </div> */}
-        <KeyboardArrowUpIcon  sx={{ fontSize: 55 }} />
+      <IconButton sx={{ p: 0 }} href="#about">
+        <KeyboardArrowUpIcon sx={{ fontSize: 55 }} href="#about" />
+      </IconButton>
     </div>
   );
 };

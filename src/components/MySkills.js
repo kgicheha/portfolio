@@ -1,7 +1,6 @@
 import React from "react";
-import { Typography, Container, Grid, CardContent, Card } from "@mui/material";
+import { Typography } from "@mui/material";
 import { styled } from "@mui/material";
-import { textAlign } from "@mui/system";
 
 const MySkills = () => {
   const CustomTypography = styled(Typography)({

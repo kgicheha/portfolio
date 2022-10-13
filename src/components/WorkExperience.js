@@ -25,7 +25,7 @@ const WorkExperience = () => {
     fontWeight: "bold",
   });
   return (
-    <div id="workExpSection">
+    <div id="workexperience">
       <CustomTypography variant="h5">WORK EXPERIENCE</CustomTypography>
       <CustomTimeline position="alternate">
         <TimelineItem>

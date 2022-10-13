@@ -39,7 +39,7 @@ const Blog = () => {
     },
   });
   return (
-    <div id="blogSection">
+    <div id="blogs">
       <CustomTypography variant="h5">BLOGS</CustomTypography>
       <CustomTypography2 variant="body1">
         Here are some of my blogs
