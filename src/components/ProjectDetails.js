@@ -28,6 +28,7 @@ const ProjectDetails = ({ project }) => {
   const CustomButton = styled(Button)({
     fontWeight: "bold",
   });
+
   return (
     <Grid item xs={12} sm={8} md={4} lg={4}>
       {showdetails ? (
@@ -55,11 +56,7 @@ const ProjectDetails = ({ project }) => {
           </CardContent>
           <div id="showcase">
             <CardActions id="github">
-              <CustomButton
-                size="medium"
-                href={project.github}
-                target="_blank"
-              >
+              <CustomButton size="medium" href={project.github} target="_blank">
                 Github
               </CustomButton>
             </CardActions>
@@ -75,17 +72,16 @@ const ProjectDetails = ({ project }) => {
         </Card>
       ) : (
         <Card
-          sx={{ maxWidth: 345, cursor: "pointer" }}
+          sx={{ maxWidth: 345, cursor: "pointer", height: "235", width: "200" }}
           //   onMouseEnter={handleClick}
           //   onMouseLeave={handleClick}
           onClick={handleClick}
         >
           <CardMedia
+            sx={{ maxHeight: "14.7em", objectFit: "contain" }}
             component="img"
-            alt="Active Record"
-            height="235"
-            width="200"
-            image={require("../Assets/active_record.jpeg")}
+            alt={project.name}
+            src={project.image}
           />
         </Card>
       )}
