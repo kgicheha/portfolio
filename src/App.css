@@ -2,6 +2,15 @@
   background-color: #f6f6f6;
   /* height: 100%; */
 }
+/* NAV BAR */
+#menuListItems {
+  text-decoration: none;
+  color: #3c3e41;
+}
+#menuListItems:hover {
+  text-decoration: underline;
+}
+
 /* About Me Section */
 #introduce {
   color: #3c3e41;

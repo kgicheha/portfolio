@@ -26,7 +26,6 @@ const ProjectDetails = ({ project }) => {
     fontWeight: "bold",
   });
   const CustomButton = styled(Button)({
-    // color: "#3C3E41",
     fontWeight: "bold",
   });
   return (
@@ -58,7 +57,8 @@ const ProjectDetails = ({ project }) => {
             <CardActions id="github">
               <CustomButton
                 size="medium"
-                href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
+                href={project.github}
+                target="_blank"
               >
                 Github
               </CustomButton>
