@@ -46,7 +46,7 @@ const Blog = () => {
       </CustomTypography2>
       <CustomContainer>
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={4} md={4} lg={4}>
+          <Grid item xs={12} sm={8} md={4} lg={4}>
             {/* Card1 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
@@ -75,7 +75,7 @@ const Blog = () => {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={4} md={4} lg={4}>
+          <Grid item xs={12} sm={8} md={4} lg={4}>
             {/* Card2 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
@@ -104,7 +104,7 @@ const Blog = () => {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={4} md={4} lg={4}>
+          <Grid item xs={12} sm={8} md={4} lg={4}>
             {/* Card3 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia

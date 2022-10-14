@@ -7,10 +7,10 @@ import MySkills from "./MySkills";
 const About = () => {
   const CustomTypography = styled(Typography)({
     color: "#FF014F",
-    paddingTop: "0.08em"
+    paddingTop: "0.08em",
   });
   const CustomTypography2 = styled(Typography)({
-    paddingTop: "5.5em",
+    paddingTop: "2.5em",
     paddingRight: "2em",
     // position: "relative",
   });
@@ -26,19 +26,12 @@ const About = () => {
           <Typography variant="h5" id="introduce">
             Let me introduce myself.
           </Typography>
-          <br />
-          <div>
-            <div id="hi">
-              <Typography variant="h4">Hi, I'm</Typography>
-            </div>
-            <div>
-              <CustomTypograph3 id="name" variant="h4">
-                Kevin Gicheha
-              </CustomTypograph3>
-            </div>
+          <div id="myNameDiv">
+            <Typography variant="h4">
+              Hi, I'm
+              <span id="name"> Kevin Gicheha</span>
+            </Typography>
           </div>
-          <br />
-          <br />
           <div id="myTitleDiv">
             <div id="a">
               <CustomTypography variant="h4">a</CustomTypography>
@@ -53,14 +46,14 @@ const About = () => {
                   "Full Stack Developer.",
                   1000, // Waits 2s
                 ]}
-                wrapper="div"
+                // wrapper="div"
                 cursor={true}
                 repeat={Infinity}
                 style={{ fontSize: "2em" }}
               />
             </div>
           </div>
-          <div>
+          <div id="summary">
             <CustomTypography2 variant="body1">
               I also bring 3+ years of analyst experience and strong
               collaboration and problem-solving skills by using innovative and
@@ -75,13 +68,13 @@ const About = () => {
         </div>
 
         {/* <div> */}
-          <img
-            id="halfshot"
-            alt="profilepic"
-            src={require("../Assets/halfshot.jpeg")}
-            height="475"
-            width="400"
-          />
+        <img
+          id="halfshot"
+          alt="profilepic"
+          src={require("../Assets/halfshot.jpeg")}
+          height="475"
+          width="400"
+        />
         {/* </div> */}
       </div>
     </>

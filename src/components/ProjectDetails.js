@@ -29,7 +29,7 @@ const ProjectDetails = ({ project }) => {
     fontWeight: "bold",
   });
   return (
-    <Grid item xs={12} sm={4} md={4} lg={4}>
+    <Grid item xs={12} sm={8} md={4} lg={4}>
       {showdetails ? (
         <Card
           sx={{ maxWidth: 345, cursor: "pointer" }}
