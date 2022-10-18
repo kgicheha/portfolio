@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.af81774b.css",
+    "main.js": "/portfolio/static/js/main.54057f2d.js",
+    "static/media/halfshot.jpeg": "/portfolio/static/media/halfshot.0ff8979a2a0d8e53856c.jpeg",
+    "static/media/logo.jpeg": "/portfolio/static/media/logo.bbaba85edbc47b5a748b.jpeg",
+    "static/media/virtual_care.png": "/portfolio/static/media/virtual_care.cdabe297419ca585d596.png",
+    "static/media/oop.png": "/portfolio/static/media/oop.772a3356449aeb289a14.png",
+    "static/media/Kevin_Gicheha_Resume.pdf": "/portfolio/static/media/Kevin_Gicheha_Resume.e5ae43dcdfc4b70d17a9.pdf",
+    "static/media/active_record.jpeg": "/portfolio/static/media/active_record.503fe634877428befe33.jpeg",
+    "static/media/material_ui.png": "/portfolio/static/media/material_ui.89afe306ace3365c40c6.png",
+    "static/media/find_fund_foster.png": "/portfolio/static/media/find_fund_foster.014e579e419bb51ab747.png",
+    "static/media/fork_it.jpg": "/portfolio/static/media/fork_it.63fab973fe74bfea4abb.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.af81774b.css.map": "/portfolio/static/css/main.af81774b.css.map",
+    "main.54057f2d.js.map": "/portfolio/static/js/main.54057f2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af81774b.css",
+    "static/js/main.54057f2d.js"
+  ]
+}
