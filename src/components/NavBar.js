@@ -130,6 +130,7 @@ const NavBar = () => {
               variant="outlined"
               href={require("../Assets/Kevin_Gicheha_Resume.pdf")}
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </CustomButton>

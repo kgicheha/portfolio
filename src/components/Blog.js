@@ -68,6 +68,7 @@ const Blog = () => {
                   <a
                     href="https://medium.com/@gichehakevin/ruby-active-record-associations-79bc0bfb972f"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Read More
                   </a>
@@ -97,6 +98,7 @@ const Blog = () => {
                   <a
                     href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Read More
                   </a>
@@ -126,6 +128,7 @@ const Blog = () => {
                   <a
                     href="https://medium.com/@gichehakevin/material-ui-v5-5c4359cca277"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Read More
                   </a>

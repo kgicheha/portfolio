@@ -65,6 +65,7 @@ const ProjectDetails = ({ project }) => {
                 size="medium"
                 href={project.demo}
                 target="_blank"
+                rel="noreferrer"
               >
                 DEMO
               </CustomButton>
