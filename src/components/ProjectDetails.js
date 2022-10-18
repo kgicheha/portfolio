@@ -63,7 +63,8 @@ const ProjectDetails = ({ project }) => {
             <CardActions id="demo">
               <CustomButton
                 size="medium"
-                href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
+                href={project.demo}
+                target="_blank"
               >
                 DEMO
               </CustomButton>

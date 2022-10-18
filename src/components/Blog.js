@@ -124,7 +124,7 @@ const Blog = () => {
               <CardActions>
                 <Button size="medium">
                   <a
-                    href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
+                    href="https://medium.com/@gichehakevin/material-ui-v5-5c4359cca277"
                     target="_blank"
                   >
                     Read More
