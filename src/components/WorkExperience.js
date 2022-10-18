@@ -53,7 +53,7 @@ const WorkExperience = () => {
                 <Typography>
                   Partnered with senior managers to create an invoice validation
                   tool that improved efficiency by reducing the processing time
-                  to 3 hours per week.
+                  by roughly 40%.
                 </Typography>
               </li>
               <li>

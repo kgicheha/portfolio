@@ -33,7 +33,7 @@ const Education = () => {
             variant="body1"
             color="text.secondary"
           >
-            June 2022 - Current
+            October 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -44,7 +44,7 @@ const Education = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <CustomTypograph2 variant="h6" component="span">
-              Flatiron School - Full Stack Software Engineer
+              Flatiron School - Full Stack Web Development, Ruby on Rails, and JavaScript Program
             </CustomTypograph2>
             <Typography>
               Learn and build original code and showcase expertise through
