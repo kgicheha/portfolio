@@ -30,7 +30,7 @@ const ProjectDetails = ({ project }) => {
   });
 
   return (
-    <Grid item xs={12} sm={8} md={4} lg={4}>
+    <Grid item xs={4} sm={4} md={4} lg={4}>
       {showdetails ? (
         <Card
           sx={{ maxWidth: 345, cursor: "pointer" }}
@@ -38,25 +38,25 @@ const ProjectDetails = ({ project }) => {
           //   onMouseLeave={handleClick}
           onClick={handleClick}
         >
-          <CardContent>
-            <CustomTypography gutterBottom variant="body1" component="div">
+          <CardContent >
+            <CustomTypography gutterBottom variant="body1" component="div" id="cardContent">
               {project.name}
             </CustomTypography>
-            <Typography gutterBottom variant="body2" component="div">
+            <Typography gutterBottom variant="body2" component="div" id="cardContent">
               {project.description}
             </Typography>
             <div id="languages">
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" color="text.secondary" id="cardContent">
                 Languages Used:
               </Typography>
-              <CustomTypography2 variant="body2" color="text.secondary">
+              <CustomTypography2 variant="body2" color="text.secondary" id="cardContent">
                 {project.languages}
               </CustomTypography2>
             </div>
           </CardContent>
           <div id="showcase">
             <CardActions id="github">
-              <CustomButton size="medium" href={project.github} target="_blank">
+              <CustomButton size="medium" href={project.github} target="_blank" id="linkButton">
                 Github
               </CustomButton>
             </CardActions>
@@ -66,6 +66,7 @@ const ProjectDetails = ({ project }) => {
                 href={project.demo}
                 target="_blank"
                 rel="noreferrer"
+                id="linkButton"
               >
                 DEMO
               </CustomButton>

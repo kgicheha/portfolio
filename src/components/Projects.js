@@ -22,9 +22,9 @@ const Projects = () => {
 return(
     <>
       <div id="projects">
-        <CustomTypography variant="h5">PROJECTS</CustomTypography>
-        <CustomContainer>
-          <Grid container spacing={2}>
+        <CustomTypography variant="h5" id="sectionHeader">PROJECTS</CustomTypography>
+        <CustomContainer id="projectContentContainer">
+          <Grid container spacing={2} id="projectGrid">
             <ProjectContainer />
           </Grid>
         </CustomContainer>

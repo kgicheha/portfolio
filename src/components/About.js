@@ -27,14 +27,14 @@ const About = () => {
             Let me introduce myself.
           </Typography>
           <div id="myNameDiv">
-            <Typography variant="h4">
+            <Typography variant="h4" id="hiImKev">
               Hi, I'm
               <span id="name"> Kevin Gicheha</span>
             </Typography>
           </div>
           <div id="myTitleDiv">
             <div id="a">
-              <CustomTypography variant="h4">a</CustomTypography>
+              <CustomTypography variant="h4" id="aLetter">a</CustomTypography>
             </div>
             <div id="textAnimation">
               <TypeAnimation
@@ -54,7 +54,7 @@ const About = () => {
             </div>
           </div>
           <div id="summary">
-            <CustomTypography2 variant="body1">
+            <CustomTypography2 variant="body1" id="summaryText">
               I also bring 3+ years of analyst experience and strong
               collaboration and problem-solving skills by using innovative and
               creative ideas to accomplish robust projects. Proven experience
@@ -67,15 +67,15 @@ const About = () => {
           <MySkills />
         </div>
 
-        {/* <div> */}
+        <div id="profilePicDiv">
         <img
-          id="halfshot"
+id="halfshot"
           alt="profilepic"
           src={require("../Assets/halfshot.jpeg")}
           height="475"
           width="400"
         />
-        {/* </div> */}
+        </div>
       </div>
     </>
   );

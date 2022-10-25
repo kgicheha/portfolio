@@ -1,8 +1,12 @@
 #entirePage {
   background-color: #f6f6f6;
   /* height: 100%; */
+  /* width: 100%; */
 }
 /* NAV BAR */
+#navBar {
+  position: fixed;
+}
 #menuListItems {
   text-decoration: none;
   color: #3c3e41;
@@ -27,13 +31,12 @@
   width: 50%;
   float: left;
 }
-#myNameDiv{
+#myNameDiv {
   padding-top: 2em;
 }
 
 #name {
-  color: #FF014F
-
+  color: #ff014f;
 }
 #myTitleDiv {
   padding-top: 1em;
@@ -48,23 +51,23 @@
   padding-left: 0.5em;
   padding-bottom: 1em;
 }
-#summary{
+#summary {
   padding-top: 2em;
 }
-#halfshot {
-  /* float: left; */
-  /* position: relative; */
-  /* height: 100%; */
-  /* top: 6em;
+/* #halfshot { */
+/* float: left; */
+/* position: relative; */
+/* height: 100%; */
+/* top: 6em;
   right: 12em; */
-}
+/* } */
 
 /* SKILLS SECTION */
 #skillsSection {
   padding-top: 2.5em;
   text-align: center;
 }
-.skillsList {
+#skillsList {
   text-align: left;
 }
 
@@ -147,4 +150,254 @@
 }
 #returnToTop:hover {
   background-color: #e20045;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* MOBILE FRIENDLY CSS */
+@media (max-width: 1000px) {
+  #entirePage {
+    background-color: #f6f6f6;
+    width: 100vw;
+  }
+  #navBar {
+    display: block;
+    width: "100vw";
+  }
+  #resumeLink {
+    font-size: 0.6em;
+  }
+
+  /* About Me Section */
+  #introduce {
+    color: #3c3e41;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-size: 0.7em;
+  }
+  #about {
+    padding-top: 4.5em;
+    padding-left: 2em;
+    /* padding-bottom: 1em; */
+  }
+  #leftSide {
+    width: 50%;
+    float: left;
+  }
+  #myNameDiv {
+    padding-top: 0.8em;
+  }
+  #hiImKev {
+    font-size: 0.8em;
+  }
+
+  #name {
+    color: #ff014f;
+  }
+  #myTitleDiv {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 0.4em;
+  }
+  #a {
+    float: left;
+  }
+  #aLetter {
+    font-size: 2em;
+  }
+
+  #textAnimation {
+    float: left;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+  #summary {
+    padding-top: 0.5em;
+  }
+  #summaryText {
+    font-size: 0.6em;
+  }
+  #profilePicDiv {
+    width: 50%;
+    float: right;
+    justify-content: center;
+  }
+  #halfshot {
+    height: 90%;
+    width: 90%;
+  }
+
+  /* SKILLS SECTION */
+  #skillsSection {
+    padding-top: 0.4em;
+    text-align: center;
+  }
+  #sectionHeader {
+    font-size: 0.7em;
+  }
+  #languageHeader {
+    font-size: 0.6em;
+    /* padding-top: 0.05em; */
+  }
+  #languages {
+    text-align: left;
+    padding-top: 0.6em;
+  }
+
+  #conceptHeader {
+    font-size: 0.6em;
+  }
+
+  #skillsList {
+    text-align: left;
+    font-size: 0.6em;
+  }
+
+  /* EDUCATION SECTION */
+  #educationSection {
+    padding-top: 22em;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  #sectionHeader {
+    font-size: 0.6em;
+  }
+  /* EDUCATION && WORK EXPERIENCE TIMELINE*/
+  #timeLine {
+    font-size: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.01em;
+  }
+  #timeLineContent {
+    padding-top: 0%;
+  }
+  #timeLineContentHeader {
+    font-size: 0.6em;
+    line-height: 80%;
+  }
+  #timeLineContentItem {
+    font-size: 0.6em;
+  }
+
+  /* PROJECT SECTION */
+  #projects {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    text-align: center;
+    background-color: #ebeeee;
+  }
+  #projectContentContainer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    font-size: 0.4em;
+  }
+
+  /* projectCards */
+  #cardContent {
+    font-size: 1em;
+  }
+  #languages {
+    text-align: left;
+    padding-top: 1em;
+  }
+  #showcase {
+    text-align: left;
+    /* font-size: 1em; */
+  }
+  #linkButton {
+    font-size: 1em;
+    justify-content: left;
+
+  }
+  #github {
+    float: left;
+    padding: 0%;
+  }
+
+  #demo {
+    float: left;
+    padding: 0%;
+    /* font-size: .9em; */
+  }
+  /* BLOG SECTION */
+  #blogs {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    text-align: center;
+    background-color: #ebeeee;
+  }
+  #blogcontentContainer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.1em;
+    font-size: 0.5em;
+  }
+  #sectionSubHeader {
+    text-align: center;
+    font-size: 0.6em;
+  }
+  #cardMedia{
+    height: 12em;
+  }
+  #blogLinkButton{
+    padding: 0%;
+    font-size: 1em;
+  }
+  #otherBlogsLink{
+    font-size: 0.5em;
+  }
+
+  /* WORK EXPERIENCE SECTION */
+  #workexperience {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  /* CONTACT SECTION */
+
+  #contactinfo {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    background-color: #ebeeee;
+  }
+  #contactHeader {
+    color: #3c3e41;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-size: 0.7em;
+  }
+  #contactSubHeader {
+    text-align: center;
+    font-size: 0.6em;
+  }
+
+  #contacts {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+  }
+  .contactIcon {
+    float: left;
+    padding-left: 0.5em;
+    color: white;
+  }
+  #icon {
+    font-size: 2.5em;
+  }
+  #return {
+    font-size: 1em;
+  }
 }

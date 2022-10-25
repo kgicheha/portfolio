@@ -33,6 +33,7 @@ const ProjectContainer = () => {
       github: "https://github.com/kgicheha/recipe-finder",
       demo: "https://www.loom.com/share/1c5e0635c4dd433b91efbe668f2d5cea"
     }
+
   ];
   return projects.map((project) => (
     <ProjectDetails key={project.name} project={project} />

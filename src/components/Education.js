@@ -25,13 +25,16 @@ const Education = () => {
 
   return (
     <div id="educationSection">
-      <CustomTypography variant="h5">EDUCATION</CustomTypography>
-      <CustomTimeline position="alternate">
-        <TimelineItem>
+      <CustomTypography variant="h5" id="sectionHeader">
+        EDUCATION
+      </CustomTypography>
+      <CustomTimeline position="alternate" id="timeLine">
+        <TimelineItem id="timeLineItem">
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             variant="body1"
             color="text.secondary"
+            id="timeLineContentItem"
           >
             October 2022
           </TimelineOppositeContent>
@@ -42,11 +45,16 @@ const Education = () => {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <CustomTypograph2 variant="h6" component="span">
-              Flatiron School - Full Stack Web Development, Ruby on Rails, and JavaScript Program
+          <TimelineContent sx={{ py: "12px", px: 2 }} id="timeLineContent">
+            <CustomTypograph2
+              variant="h6"
+              component="span"
+              id="timeLineContentHeader"
+            >
+              Flatiron School - Full Stack Web Development, Ruby on Rails, and
+              JavaScript Program
             </CustomTypograph2>
-            <Typography>
+            <Typography id="timeLineContentItem">
               Learn and build original code and showcase expertise through
               comprehensive portfolio projects utilizing CRUD functionalities,
               Object Oriented Design, and test-driven programming
@@ -54,12 +62,19 @@ const Education = () => {
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineOppositeContent sx={{ py: "12px", px: 2 }}>
-            <CustomTypograph2 variant="h6" component="span">
+          <TimelineOppositeContent
+            sx={{ py: "12px", px: 2 }}
+            id="timeLineContent"
+          >
+            <CustomTypograph2
+              variant="h6"
+              component="span"
+              id="timeLineContentHeader"
+            >
               University of Delaware - Alfred Lerner College of Business and
               Economics
             </CustomTypograph2>
-            <Typography>
+            <Typography id="timeLineContentItem">
               Bachelor of Science in Management Information Systems and Finance
             </Typography>
           </TimelineOppositeContent>
@@ -76,6 +91,7 @@ const Education = () => {
             sx={{ m: "auto 0" }}
             variant="body1"
             color="text.secondary"
+            id="timeLineContentItem"
           >
             July 2018
           </TimelineContent>

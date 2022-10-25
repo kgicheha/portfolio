@@ -34,6 +34,8 @@ const NavBar = () => {
 
   const CustomAppBar = styled(AppBar)({
     backgroundColor: "#f6f6f6",
+
+
   });
 
   const CustomButton = styled(Button)({
@@ -58,8 +60,9 @@ const NavBar = () => {
 
   return (
     <>
-      <CustomAppBar position="fixed">
-        <Container maxWidth="xl">
+    <div id="navBar">
+      <CustomAppBar >
+        <Container >
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip>
@@ -131,12 +134,14 @@ const NavBar = () => {
               href={require("../Assets/Kevin_Gicheha_Resume.pdf")}
               target="_blank"
               rel="noreferrer"
+              id="resumeLink"
             >
               Resume
             </CustomButton>
           </Toolbar>
         </Container>
       </CustomAppBar>
+      </div>
     </>
   );
 };

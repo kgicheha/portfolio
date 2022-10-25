@@ -16,24 +16,29 @@ const ContactMe = () => {
 
   return (
     <div id="contactinfo">
-      <Typography variant="h4">I'd Love To Connect With You.</Typography>
-      <CustomTypography2 variant="body1">
+      <Typography variant="h4" id="contactHeader">
+        I'd Love To Connect With You.
+      </Typography>
+      <CustomTypography2 variant="body1" id="contactSubHeader">
         Let me get to know more about you.
       </CustomTypography2>
       <div id="contacts">
         <div className="contactIcon">
-        <a href = "mailto: gichehakevin@gmail.com">
-
-          <MailIcon sx={{ fontSize: 55, color: "#1876d1" }} />
-        </a>
+          <a href="mailto: gichehakevin@gmail.com">
+            <MailIcon sx={{ fontSize: 55, color: "#1876d1" }} id="icon" />
+          </a>
         </div>
         <div className="contactIcon">
-          <a href="https://www.linkedin.com/in/kevin-gicheha/"  target="_blank">
-            <LinkedInIcon sx={{ fontSize: 55, color: "#1876d1" }} />
+          <a
+            href="https://www.linkedin.com/in/kevin-gicheha/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon sx={{ fontSize: 55, color: "#1876d1" }} id="icon" />
           </a>
         </div>
       </div>
-      <IconButton sx={{ p: 0 }} href="#about">
+      <IconButton sx={{ p: 0 }} href="#about" id="return">
         <KeyboardArrowUpIcon sx={{ fontSize: 55 }} href="#about" />
       </IconButton>
     </div>

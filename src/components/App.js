@@ -15,16 +15,6 @@ function App() {
       <div id="entirePage">
         <CssBaseline />
         <NavBar />
-
-        {/* <Routes>
-          <Route path="/education" element={<Education />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/blogs" element={<Blog />}></Route>
-          <Route path="/experience" element={<WorkExperience />}></Route>
-          <Route path="/contact" element={<ContactMe />}></Route>
-          <Route exact path="/" element={<About />}></Route>
-        </Routes> */}
-        <NavBar />
         <About />
         <Education />
         <Projects />
