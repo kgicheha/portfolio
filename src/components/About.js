@@ -50,9 +50,9 @@ const About = () => {
                   1000, // Waits 2s
                 ]}
                 // wrapper="div"
-                cursor={true}
+                cursor={false}
                 repeat={Infinity}
-                style={{ fontSize: "2em" }}
+                style={{ fontSize: "2em", position:"static" }}
               />
             </div>
           </div>
