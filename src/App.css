@@ -83,6 +83,9 @@
   padding-bottom: 1em;
   text-align: center;
 }
+#timeLineItem{
+  position: static;
+}
 #timeLineContent {
   position: static;
 }
@@ -292,9 +295,12 @@
     padding-right: 0.3em;
     padding-top: 0.01em;
   }
+  #timeLineItem{
+    position: static;
+  }
   #timeLineContent {
     padding-top: 0%;
-    position: static;
+    /* position: static; */
   }
   #timeLineContentHeader {
     font-size: 0.5em;
@@ -302,7 +308,7 @@
   }
   #timeLineContentItem {
     font-size: 0.5em;
-    position: static !important;
+    /* position: static !important; */
   }
   #timeLineIcon {
     font-size: 0.8em;
