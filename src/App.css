@@ -1,6 +1,6 @@
 #entirePage {
   background-color: #f6f6f6;
-  overflow: auto
+  overflow: auto;
   /* height: 100%; */
   /* width: 100%; */
 }
@@ -21,7 +21,7 @@
 #introduce {
   color: #3c3e41;
   font-weight: bold;
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 #about {
@@ -173,7 +173,7 @@
   #introduce {
     color: #3c3e41;
     font-weight: bold;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     font-size: 0.7em;
   }
@@ -315,7 +315,6 @@
   #linkButton {
     font-size: 1em;
     justify-content: left;
-
   }
   #github {
     float: left;
@@ -347,20 +346,20 @@
     text-align: center;
     font-size: 0.6em;
   }
-  #cardMedia{
+  #cardMedia {
     height: 12em;
   }
-  #cardContentDiv{
+  #cardContentDiv {
     /* padding-bottom: 3.5em; */
   }
-  #cardAction{
+  #cardAction {
     padding-top: 0%;
   }
-  #blogLinkButton{
+  #blogLinkButton {
     padding: 0%;
     font-size: 1em;
   }
-  #otherBlogsLink{
+  #otherBlogsLink {
     font-size: 0.5em;
   }
 
