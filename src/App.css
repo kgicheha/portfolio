@@ -52,6 +52,7 @@
   float: left;
   padding-left: 0.5em;
   padding-bottom: 1em;
+  position: static;
 }
 #textAnimationText {
   position: static;
@@ -225,6 +226,9 @@
     padding-left: 0.5em;
     padding-bottom: 1em;
     font-size: 1em;
+    position: static;
+  }
+  #textAnimationText {
     position: static;
   }
   #summary {
