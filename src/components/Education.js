@@ -62,7 +62,7 @@ const Education = () => {
             </Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem id="timeLineItem">
           <TimelineOppositeContent
             sx={{ py: "12px", px: 2 }}
             id="timeLineContent"
