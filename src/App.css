@@ -1,11 +1,13 @@
 #entirePage {
   background-color: #f6f6f6;
+  overflow: auto
   /* height: 100%; */
   /* width: 100%; */
 }
 /* NAV BAR */
 #navBar {
   position: fixed;
+  /* background-color: white; */
 }
 #menuListItems {
   text-decoration: none;
@@ -234,7 +236,7 @@
     text-align: center;
   }
   #sectionHeader {
-    font-size: 0.7em;
+    font-size: 0.75em;
   }
   #languageHeader {
     font-size: 0.6em;
@@ -347,6 +349,12 @@
   }
   #cardMedia{
     height: 12em;
+  }
+  #cardContentDiv{
+    /* padding-bottom: 3.5em; */
+  }
+  #cardAction{
+    padding-top: 0%;
   }
   #blogLinkButton{
     padding: 0%;

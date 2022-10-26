@@ -34,8 +34,6 @@ const NavBar = () => {
 
   const CustomAppBar = styled(AppBar)({
     backgroundColor: "#f6f6f6",
-
-
   });
 
   const CustomButton = styled(Button)({
@@ -60,87 +58,87 @@ const NavBar = () => {
 
   return (
     <>
-    <div id="navBar">
-      <CustomAppBar >
-        <Container >
-          <Toolbar disableGutters>
-            <Box sx={{ flexGrow: 0 }}>
-              <Tooltip>
-                <IconButton sx={{ p: 0 }} href="#about">
-                  <Avatar
-                    alt="logo"
-                    src={require("../Assets/logo.jpeg")}
-                    sx={{ width: 50, height: 50 }}
-                  />
-                </IconButton>
-              </Tooltip>
-            </Box>
-
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                  display: { xs: "block", md: "none" },
-                }}
-              >
-                {pages.map((page) => (
-                  <MenuItem key={page.name} onClick={handleCloseNavMenu}>
-                    <a id="menuListItems" href={page.link}>
-                      <Typography textAlign="center">{page.name}</Typography>
-                    </a>
-                  </MenuItem>
-                ))}
-              </Menu>
-            </Box>
-            <Container
-            // sx={{ justifyItems: "center",  display: "flex" }}
-            >
-              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                {pages.map((page) => (
-                  <CustomMenuButton
-                    key={page.name}
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2 }}
-                    href={page.link}
-                  >
-                    {page.name}
-                  </CustomMenuButton>
-                ))}
+      <div id="navBar">
+        <CustomAppBar>
+          <Container>
+            <Toolbar disableGutters>
+              <Box sx={{ flexGrow: 0 }}>
+                <Tooltip>
+                  <IconButton sx={{ p: 0 }} href="#about">
+                    <Avatar
+                      alt="logo"
+                      src={require("../Assets/logo.jpeg")}
+                      sx={{ width: 50, height: 50 }}
+                    />
+                  </IconButton>
+                </Tooltip>
               </Box>
-            </Container>
-            <CustomButton
-              variant="outlined"
-              href={require("../Assets/Kevin_Gicheha_Resume.pdf")}
-              target="_blank"
-              rel="noreferrer"
-              id="resumeLink"
-            >
-              Resume
-            </CustomButton>
-          </Toolbar>
-        </Container>
-      </CustomAppBar>
+
+              <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+                <IconButton
+                  size="large"
+                  aria-label="account of current user"
+                  aria-controls="menu-appbar"
+                  aria-haspopup="true"
+                  onClick={handleOpenNavMenu}
+                >
+                  <MenuIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorElNav}
+                  anchorOrigin={{
+                    vertical: "bottom",
+                    horizontal: "left",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "left",
+                  }}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                  sx={{
+                    display: { xs: "block", md: "none" },
+                  }}
+                >
+                  {pages.map((page) => (
+                    <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                      <a id="menuListItems" href={page.link}>
+                        <Typography textAlign="center">{page.name}</Typography>
+                      </a>
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </Box>
+              <Container
+              // sx={{ justifyItems: "center",  display: "flex" }}
+              >
+                <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+                  {pages.map((page) => (
+                    <CustomMenuButton
+                      key={page.name}
+                      onClick={handleCloseNavMenu}
+                      sx={{ my: 2 }}
+                      href={page.link}
+                    >
+                      {page.name}
+                    </CustomMenuButton>
+                  ))}
+                </Box>
+              </Container>
+              <CustomButton
+                variant="outlined"
+                href={require("../Assets/Kevin_Gicheha_Resume.pdf")}
+                target="_blank"
+                rel="noreferrer"
+                id="resumeLink"
+              >
+                Resume
+              </CustomButton>
+            </Toolbar>
+          </Container>
+        </CustomAppBar>
       </div>
     </>
   );

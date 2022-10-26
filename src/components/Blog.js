@@ -72,10 +72,10 @@ const Blog = () => {
                   color="text.secondary"
                   id="cardContent"
                 >
-                  Active Record Association Features
+                  Key Features
                 </Typography>
               </CardContent>
-              <CardActions>
+              <CardActions id="cardAction">
                 <Button size="medium" id="blogLinkButton">
                   <a
                     href="https://medium.com/@gichehakevin/ruby-active-record-associations-79bc0bfb972f"
@@ -112,10 +112,10 @@ const Blog = () => {
                   color="text.secondary"
                   id="cardContent"
                 >
-                  What Is Object Oriented Programming?
+                  What Is OOP?
                 </Typography>
               </CardContent>
-              <CardActions>
+              <CardActions id="cardAction">
                 <Button size="medium" id="blogLinkButton">
                   <a
                     href="https://medium.com/@gichehakevin/object-oriented-programming-c4f5d88172cd"
@@ -138,7 +138,7 @@ const Blog = () => {
                 image={require("../Assets/material_ui.png")}
                 id="cardMedia"
               />
-              <CardContent>
+              <CardContent id="cardContentDiv">
                 <Typography
                   gutterBottom
                   variant="body1"
