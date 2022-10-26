@@ -49,7 +49,7 @@ const Education = () => {
           <TimelineContent sx={{ py: "12px", px: 2 }} id="timeLineContent">
             <CustomTypograph2
               variant="h6"
-              component="span"
+              // component="span"
               id="timeLineContentHeader"
             >
               Flatiron School - Full Stack Web Development, Ruby on Rails, and
@@ -69,7 +69,7 @@ const Education = () => {
           >
             <CustomTypograph2
               variant="h6"
-              component="span"
+              // component="span"
               id="timeLineContentHeader"
             >
               University of Delaware - Alfred Lerner College of Business and

@@ -49,7 +49,7 @@ const WorkExperience = () => {
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <CustomTypograph2
               variant="h6"
-              component="span"
+              // component="span"
               id="timeLineContentHeader"
             >
               Robert Half
@@ -95,7 +95,7 @@ const WorkExperience = () => {
           >
             <CustomTypograph2
               variant="h6"
-              component="span"
+              // component="span"
               id="timeLineContentHeader"
             >
               State Street Corporation
