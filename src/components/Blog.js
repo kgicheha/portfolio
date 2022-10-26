@@ -107,12 +107,13 @@ const Blog = () => {
                 >
                   Object Oriented Programming
                 </Typography>
+
                 <Typography
                   variant="body2"
                   color="text.secondary"
                   id="cardContent"
                 >
-                  What Is OOP?
+                  Why is it useful?
                 </Typography>
               </CardContent>
               <CardActions id="cardAction">
