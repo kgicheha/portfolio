@@ -38,8 +38,8 @@ const ContactMe = () => {
           </a>
         </div>
       </div>
-      <IconButton sx={{ p: 0 }} href="#about" id="return">
-        <KeyboardArrowUpIcon sx={{ fontSize: 55 }} href="#about" />
+      <IconButton sx={{ p: 0 }} href="#about">
+        <KeyboardArrowUpIcon sx={{ fontSize: 55 }} href="#about" id="return" />
       </IconButton>
     </div>
   );

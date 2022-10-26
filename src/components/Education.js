@@ -21,6 +21,7 @@ const Education = () => {
   const CustomTimeline = styled(Timeline)({
     paddingLeft: "12em",
     paddingRight: "12em",
+    position: "static"
   });
 
   return (
@@ -41,7 +42,7 @@ const Education = () => {
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary">
-              <SchoolIcon />
+              <SchoolIcon id="timeLineIcon"/>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -82,7 +83,7 @@ const Education = () => {
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary">
-              <SchoolIcon />
+              <SchoolIcon id="timeLineIcon"/>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>

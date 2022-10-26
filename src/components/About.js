@@ -34,10 +34,13 @@ const About = () => {
           </div>
           <div id="myTitleDiv">
             <div id="a">
-              <CustomTypography variant="h4" id="aLetter">a</CustomTypography>
+              <CustomTypography variant="h4" id="aLetter">
+                a
+              </CustomTypography>
             </div>
             <div id="textAnimation">
               <TypeAnimation
+                id="textAnimationText"
                 sequence={[
                   "Software Engineer.",
                   1000, // Waits 1s
@@ -68,13 +71,13 @@ const About = () => {
         </div>
 
         <div id="profilePicDiv">
-        <img
-id="halfshot"
-          alt="profilepic"
-          src={require("../Assets/halfshot.jpeg")}
-          height="475"
-          width="400"
-        />
+          <img
+            id="halfshot"
+            alt="profilepic"
+            src={require("../Assets/halfshot.jpeg")}
+            height="475"
+            width="400"
+          />
         </div>
       </div>
     </>

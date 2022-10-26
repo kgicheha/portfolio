@@ -42,7 +42,7 @@ const WorkExperience = () => {
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary">
-              <WorkIcon />
+              <WorkIcon id="timeLineIcon"/>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -136,7 +136,7 @@ const WorkExperience = () => {
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary">
-              <WorkIcon />
+              <WorkIcon id="timeLineIcon"/>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
