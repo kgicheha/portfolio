@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.06c15eab.css",
-    "main.js": "/portfolio/static/js/main.22764c37.js",
+    "main.css": "/portfolio/static/css/main.43a95fb0.css",
+    "main.js": "/portfolio/static/js/main.80cc5f75.js",
     "static/media/halfshot.jpeg": "/portfolio/static/media/halfshot.0ff8979a2a0d8e53856c.jpeg",
     "static/media/logo.jpeg": "/portfolio/static/media/logo.bbaba85edbc47b5a748b.jpeg",
     "static/media/virtual_care.png": "/portfolio/static/media/virtual_care.cdabe297419ca585d596.png",
@@ -12,11 +12,11 @@
     "static/media/find_fund_foster.png": "/portfolio/static/media/find_fund_foster.014e579e419bb51ab747.png",
     "static/media/fork_it.jpg": "/portfolio/static/media/fork_it.63fab973fe74bfea4abb.jpg",
     "index.html": "/portfolio/index.html",
-    "main.06c15eab.css.map": "/portfolio/static/css/main.06c15eab.css.map",
-    "main.22764c37.js.map": "/portfolio/static/js/main.22764c37.js.map"
+    "main.43a95fb0.css.map": "/portfolio/static/css/main.43a95fb0.css.map",
+    "main.80cc5f75.js.map": "/portfolio/static/js/main.80cc5f75.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c15eab.css",
-    "static/js/main.22764c37.js"
+    "static/css/main.43a95fb0.css",
+    "static/js/main.80cc5f75.js"
   ]
 }
